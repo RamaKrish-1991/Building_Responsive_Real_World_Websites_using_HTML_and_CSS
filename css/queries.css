@@ -117,6 +117,7 @@
   /*MOBILE NAVIGATION*/
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -133,7 +134,7 @@
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* display: none;  Allows NO transitions at all */
+    /* display: none;  Allows NO transitions */
 
     opacity: 0; /*Can animate*/
 
@@ -164,7 +165,7 @@
     gap: 4.8rem;
   }
 
-  .main-nav-lint:link,
+  .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
   }
